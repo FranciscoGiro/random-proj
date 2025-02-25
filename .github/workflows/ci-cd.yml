@@ -44,7 +44,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://FranciscoGiro.github.io/random-proj/
+      url: https://franciscogiro.github.io/random-proj/
 
     steps:
       - name: Deploy
