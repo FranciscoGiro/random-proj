@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/covid_dashboard'
+          BASE_PATH: '/random-proj'
         run: |
           npm run build
           touch build/.nojekyll
@@ -44,7 +44,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://FranciscoGiro.github.io/random-proj/
 
     steps:
       - name: Deploy
